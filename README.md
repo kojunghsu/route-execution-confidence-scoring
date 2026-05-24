@@ -71,8 +71,7 @@ The indicators are aggregated into a trip-level execution score.
 The final Confidence Score combines GPS reliability and execution quality:
 
 ```text
-Confidence Score =
-GPS Reliability × Execution Score
+Confidence Score = GPS Reliability × Execution Score
 ```
 
 This design prevents degraded GPS quality from being incorrectly interpreted as operational underperformance.
